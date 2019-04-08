@@ -1,0 +1,61 @@
+ID,FieldNames,Theme,Name
+1,Urban,Household Charcteristics(% of households), HH that live in Urban areas
+6,Male_head,Household Charcteristics(% of households), HH that are headed by men
+7,Monogamous,Household Charcteristics(% of households), HH whose head is in a monogamous relationship
+8,Widow_head,Household Charcteristics(% of households), HH that are headed by widow/widower
+9,Never_educ,Household Charcteristics(% of households), HH members that have never been to school
+10,Detached,Household Charcteristics(% of households), HH that live in detached houses
+11,Mizigo,Household Charcteristics(% of households), HH that live in tiny slum like houses
+12,Owner_occu,Household Charcteristics(% of households), HH that live in houses that they own
+13,Rent_publi,Household Charcteristics(% of households), HH that live in houses that they are renting from public institutions
+14,Rent_priva,Household Charcteristics(% of households), HH that live in houses that they are renting from public individuals
+15,F_flo_eart,Household Charcteristics(% of households), HH that live in houses with earth floor
+16,F_flo_ramm,Household Charcteristics(% of households), HH that live in houses with rammed earth floor
+17,F_flo_ceme,Household Charcteristics(% of households), HH that live in houses with cement floor
+18,Thatch,Household Charcteristics(% of households), HH that live in houses with thatch roof
+19,Cement_blo,Household Charcteristics(% of households), HH that live in houses with cement block walls
+20,burnt_bric,Household Charcteristics(% of households), HH that live in houses with burnt brick walls
+21,Unburnt_br,Household Charcteristics(% of households), HH that live in houses with unburnt brick walls
+22,Mud_and_po,Household Charcteristics(% of households), HH that live in houses with mud and pole walls
+24,F_yes_sola,Solar Usage (% of households), HH that use solar
+25,F_no_solar,Solar Usage (% of households), HH that dont use solar
+26,lighting,Solar Usage (% of households), HH that use solar for lighting
+27,charging,Solar Usage (% of households), HH that use solar for charging
+28,Entertainm,Solar Usage (% of households), HH that use solar for entertainment
+29,yes_traini,Solar Usage (% of households), HH that recieved training on how to use the solar system
+30,lantern,Solar Usage (% of households), HH that use lanterns (solar powered bulbs)
+31,lighting_s,Solar Usage (% of households), HH that use solar lighting system
+32,home_syste,Solar Usage (% of households), HH that use solar home system
+33,Satisfied,Solar Usage (% of households),HH that are satisfied with their solar device
+34,neutral,Solar Usage (% of households),HH that are neutral in regard to their satisfaction with their solar device
+35,unsatisfie,Solar Usage (% of households),HH that are unsatisfied with their solar device
+36,f_fully,Solar acquisition (% of households), HH that paid fully for the solar system
+37,f_installm,Solar acquisition (% of households), HH that paid in installments for the solar system
+38,f_free,Solar acquisition (% of households), HH that got the solar system for free
+39,F_rent,Solar acquisition (% of households), HH that rent the solar system
+40,decis_husb,Solar acquisition (% of households), HH in which the husband made the decision on whether to buy solar or not
+41,decis_wife,Solar acquisition (% of households), HH in which the wife made the decision on whether to buy solar or not
+42,decis_both,Solar acquisition (% of households), HH in which both wife and husband made the decision on whether to buy solar or not
+43,decis_chil,Solar acquisition (% of households), HH in which the children made the decision on whether to buy solar or not
+44,LS_prcing,Solar acquisition (% of households),Price of solar lighting system
+45,HS_pricing,Solar acquisition (% of households),Price of solar home system
+46,supply_sho,Challenges experienced(% of households),Supply shortage
+47,voltage_fl,Challenges experienced(% of households),Voltage fluctuation
+48,often_brea,Challenges experienced(% of households),Maintenance/service problems battery/panels break down too often
+49,large_appl,Challenges experienced(% of households),Cannot power large appliances
+50,poor_light,Challenges experienced(% of households),Poor quality of light
+51,upnpred_in,Challenges experienced(% of households),Unpredictable interruptions
+52,unavail_ma,Challenges experienced(% of households),Maintenance services and spare parts are not readily available
+53,no_challen,Challenges experienced(% of households),No Problem with Solar
+54,yes_intere,Willingness to pay for solar(% of households),"HH that are willing to connect to solar, though are currently not connected"
+55,Yes_LS_upf,Willingness to pay for solar(% of households),HH that are willing to pay 150000ugx for solar lighting system upfront (all at once)
+56,LS_2instal,Willingness to pay for solar(% of households),HH that are willing to pay 150000ugx for solar lighting system in 2 equal installments
+57,LS_3instal,Willingness to pay for solar(% of households),HH that are willing to pay 150000ugx for solar lighting system in 3 equal installments
+58,LS_4instal,Willingness to pay for solar(% of households),HH that are willing to pay 150000ugx for solar lighting system in 4 equal installments
+59,LS__5insta,Willingness to pay for solar(% of households),HH that are willing to pay 150000ugx for solar lighting system in 5 equal installments
+60,HS_yes_upf,Willingness to pay for solar(% of households),HH that are willing to pay 2000000ugx for solar home system upfront (all at once)
+61,HS_2instal,Willingness to pay for solar(% of households),HH that are willing to pay 2000000ugx for solar home system in 2 equal installments
+62,HS_3iinsta,Willingness to pay for solar(% of households),HH that are willing to pay 2000000ugx for solar home system in 3 equal installments
+63,HS_4instal,Willingness to pay for solar(% of households),HH that are willing to pay 2000000ugx for solar home system in 4 equal installments
+64,HS_5instal,Willingness to pay for solar(% of households),HH that are willing to pay 2000000ugx for solar home system in 5 equal installments
+65,HS_6instal,Willingness to pay for solar(% of households),HH that are willing to pay 2000000ugx for solar home system in 6 equal installments

@@ -10,7 +10,7 @@ var cbounds;
       $("#overlay-content").css("width","auto");
      }*/
   
-  $("#filters").css("height",$(window).height()-$("#filters").offset().top-150+"px")
+  $("#filters").css("height",$(window).height()-$("#filters").offset().top-85+"px")
   // https://www.humanitarianresponse.info/en/operations/afghanistan/cvwg-3w
   // https://public.tableau.com/profile/geo.gecko#!/vizhome/Districtpolygon/v1?publish=yes
   'use strict';
@@ -1021,28 +1021,36 @@ country = L.geoJson(ugandaGeoJson)
             }
             
         }
+    
+    var whichDistrict = "Mbarara"
 
     d3.select("#select-Gulu").on('click', function(){
-      console.log("select-Gulu");
-      console.log(countriesOverlay);
+      if(whichDistrict==="Mbarara") {
+      d3.select("#select-Mbarara").style('background-color', 'grey');
+      d3.select("#select-Gulu").style('background-color', '#e3784a');
+      whichDistrict = "Gulu"
       var lat_tmp = 1.351;
             var lng_tmp = 31.415;
             map.setMaxBounds(null);
             map.setView({lat: lat_tmp, lng: lng_tmp },7,{pan: {animate: true,duration: 1.5},zoom: {animate: true} });
             setTimeout(function(){
-              map.setView({lat: 2.981, lng: 32.885 },10,{pan: {animate: true,duration: 1.5},zoom: {animate: true} });
+              map.setView({lat: 2.9876, lng: 32.3744 },10.8,{pan: {animate: true,duration: 1.5},zoom: {animate: true} });
            },500);
+      }
     });
     d3.select("#select-Mbarara").on('click', function(){
-      console.log("select-Mbarara");
-      console.log(countriesOverlay);
-      var lat_tmp = 1.351;
+      if(whichDistrict==="Gulu") {
+        d3.select("#select-Gulu").style('background-color', 'grey');
+        d3.select("#select-Mbarara").style('background-color', '#e3784a');
+        whichDistrict = "Mbarara"
+        var lat_tmp = 1.351;
             var lng_tmp = 31.415;
             map.setMaxBounds(null);
             map.setView({lat: lat_tmp, lng: lng_tmp },7,{pan: {animate: true,duration: 1.5},zoom: {animate: true} });
             setTimeout(function(){
-              map.setView({lat: -0.708, lng: 31.064 },10,{pan: {animate: true,duration: 1.5},zoom: {animate: true} });
+              map.setView({lat: -0.570, lng: 30.570 },10.8,{pan: {animate: true,duration: 1.5},zoom: {animate: true} });
            },500);
+        }
     });
 
     window.addEventListener("resize", function () {

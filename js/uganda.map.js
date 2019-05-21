@@ -128,6 +128,16 @@ var cbounds;
     refreshCounts();
     updateLeftPanel(districtList, dataset1);
 
+    $(".custom-list-header").click(function () {
+      $(".custom-list-header").siblings(".custom-list").addClass('collapsed');
+      $(this).siblings(".custom-list").toggleClass('collapsed');
+      $(this).find("span").toggleClass('glyphicon-menu-down').toggleClass('glyphicon-menu-right');
+    });
+
+    // Collapses all the boxes apart from subCounty
+    $(".custom-list-header").siblings(".custom-list").addClass('collapsed');
+    // $("#socio-economic-list.custom-list").removeClass('collapsed');
+
     var h = (window.innerHeight ||
       document.documentElement.clientHeight ||
       document.body.clientHeight);
